@@ -1,7 +1,5 @@
-import Notice from './Notice'
 
 export default function Header() {
-
 
 
     return (
@@ -13,7 +11,7 @@ export default function Header() {
              Guess the word in under 8 attempts to keep the programming world safe from Assembly!
              </p>
          </div>
-         <Notice/>      
+     
          </header>
         </>
     )

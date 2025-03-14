@@ -28,12 +28,26 @@ header p {
   font-size: 1rem;
   font-weight: 400;
 }
-header blockquote {
-  background-color:#7A5EA7 ;
+
+.notice {
   color: #F9F4DA;
   font-size: 1.2rem;
   font-weight: 400;
   padding: 1rem;
+  width: 352px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.notice-container-playing {
+  background-color:#7A5EA7;
+}
+
+.notice-container-won {
+  background-color:#10A95B ;
+}
+.notice-container-lose {
+  background-color:#BA2A2A ;
 }
 
 .eliminations-btn-container{

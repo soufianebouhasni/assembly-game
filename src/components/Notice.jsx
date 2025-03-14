@@ -1,10 +1,10 @@
-export default function Notice() {
+export default function Notice({notice}) {
 
 
     return (
         <>
-             <blockquote>
-             “Farewell HTML & CSS” 🫡 
+             <blockquote className={`notice notice-container-${notice.status}`}>
+             {notice.message}
              </blockquote>
         </>
     )
