@@ -70,7 +70,7 @@ header p {
 
 .guessed-letters-board {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 352px;
   margin-top: 2.1rem;
   gap:.2rem;
@@ -88,6 +88,14 @@ header p {
   color: #F9F4DA;
   border-bottom: 1px solid #F9F4DA;
   background-color: #323232;
+}
+ .guessed-letter-box-span{
+  text-transform: capitalize;
+  opacity: 0;
+}
+.guessed-letter-box-span-correct{
+  text-transform: capitalize;
+  opacity: 1;
 }
 
 .key-board-container {
@@ -109,4 +117,22 @@ header p {
   cursor: pointer;
   border-radius: 4px;
 
+}
+.key-board-container button:disabled {
+  background-color: #808080;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.guess-wrong{
+
+  background-color: #EC5D49 !important;
+}
+.guess-correct{
+  background-color: #10A95B !important;
+}
+
+.used-letter {
+  opacity: 0.7;
+  text-decoration: line-through;
 }
