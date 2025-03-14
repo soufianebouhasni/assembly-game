@@ -1,0 +1,98 @@
+main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  /* background-color: red; */
+  text-align: center;
+  width: 352px;
+
+}
+
+.header-info {
+  margin-bottom: 1.3rem;
+}
+
+header h1 {
+  color: #F9F4DA;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+header p {
+  color: #8E8E8E;
+  font-size: 1rem;
+  font-weight: 400;
+}
+header blockquote {
+  background-color:#7A5EA7 ;
+  color: #F9F4DA;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem;
+}
+
+.eliminations-btn-container{
+ display:flex;
+ flex-wrap: wrap;
+ gap:.3rem;
+ width: 352px;
+ justify-content: center;
+ margin-top: 2.1rem;
+}
+
+.eliminations-btn-container button{
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 550;
+}
+
+.guessed-letters-board {
+  display: flex;
+  justify-content: space-evenly;
+  width: 352px;
+  margin-top: 2.1rem;
+  gap:.2rem;
+}
+
+.guessed-letters-board .guessed-letter-box {
+  width: 40px;
+  height: 40px;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 550;
+  font-size: 1.2rem;
+  color: #F9F4DA;
+  border-bottom: 1px solid #F9F4DA;
+  background-color: #323232;
+}
+
+.key-board-container {
+  display: flex;
+  justify-content: center;
+  width: 480px;
+  margin-top: 4rem;
+  gap:.4rem;
+  flex-wrap: wrap;
+}
+
+.key-board-container button {
+  width: 40px;
+  height: 40px;
+  background-color: #FCBA29;
+  border: none;
+  color: #1E1E1E;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+
+}
